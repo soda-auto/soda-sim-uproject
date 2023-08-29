@@ -1,0 +1,14 @@
+Content
+Binaries
+Build
+DerivedDataCache
+Intermediate
+Saved
+Plugins
+.vs
+*.sln
+*.code-workspace
+.idea
+.vscode
+CMakeLists.txt
+Makefile
