@@ -3,12 +3,12 @@
 using UnrealBuildTool;
 using System.Collections.Generic;
 
-public class SodaSimBaseTarget : TargetRules
+public class SodaSimProjectTarget : TargetRules
 {
-	public SodaSimBaseTarget(TargetInfo Target) : base(Target)
+	public SodaSimProjectTarget(TargetInfo Target) : base(Target)
 	{
 		Type = TargetType.Game;
-		ExtraModuleNames.Add("SodaSimBase");
+		ExtraModuleNames.Add("SodaSimProject");
 		
 		//LinkType = TargetLinkType.Modular;
 	}

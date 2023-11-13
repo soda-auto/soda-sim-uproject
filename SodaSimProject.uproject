@@ -1,31 +1,59 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "5.1",
+	"EngineAssociation": "5.3",
 	"Category": "",
 	"Description": "",
 	"Modules": [
 		{
-			"Name": "SodaSimBase",
+			"Name": "SodaSimProject",
 			"Type": "Runtime",
 			"LoadingPhase": "Default"
 		}
 	],
 	"Plugins": [
 		{
-			"Name": "UnrealSoda",
+			"Name": "SodaSim",
 			"Enabled": true
 		},
 		{
-			"Name": "SodaContrib",
+			"Name": "SodaCAN",
+			"Enabled": true
+		},
+		{
+			"Name": "SodaContinental",
+			"Enabled": true
+		},
+		{
+			"Name": "SodaHoneywell",
+			"Enabled": true
+		},
+		{
+			"Name": "SodaInnoviz",
+			"Enabled": true
+		},
+		{
+			"Name": "SodaMando",
+			"Enabled": true
+		},
+		{
+			"Name": "SodaZF",
 			"Enabled": true
 		},
 		{
 			"Name": "SodaSolectrix",
-			"Enabled": false
+			"Enabled": true
 		},
 		{
 			"Name": "SodaArrival",
 			"Enabled": true
+		},
+		{
+			"Name": "SodaChrono",
+			"Enabled": false
+		},
+		{
+			"Name": "SodaPython",
+			"Enabled": false
 		},
 		{
 			"Name": "HDRIBackdrop",
@@ -161,6 +189,10 @@
 		},
 		{
 			"Name": "GeometryCollectionPlugin",
+			"Enabled": true
+		},
+		{
+			"Name": "GeoReferencing",
 			"Enabled": true
 		}
 	]

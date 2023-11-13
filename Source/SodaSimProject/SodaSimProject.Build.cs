@@ -1,11 +1,11 @@
 using System.IO;
 using UnrealBuildTool;
 
-public class SodaSimBase : ModuleRules
+public class SodaSimProject : ModuleRules
 {
-	public SodaSimBase(ReadOnlyTargetRules Target) : base(Target)
+	public SodaSimProject(ReadOnlyTargetRules Target) : base(Target)
 	{
-		PrivatePCHHeaderFile = "SodaSimBase.h";
+		PrivatePCHHeaderFile = "SodaSimProject.h";
 
 		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore" });
 

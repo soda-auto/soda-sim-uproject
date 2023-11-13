@@ -3,12 +3,12 @@
 using UnrealBuildTool;
 using System.Collections.Generic;
 
-public class SodaSimBaseEditorTarget : TargetRules
+public class SodaSimProjectEditorTarget : TargetRules
 {
-	public SodaSimBaseEditorTarget(TargetInfo Target) : base(Target)
+	public SodaSimProjectEditorTarget(TargetInfo Target) : base(Target)
 	{
 		Type = TargetType.Editor;
-		ExtraModuleNames.Add("SodaSimBase");
+		ExtraModuleNames.Add("SodaSimProject");
 
 		//bUseUnityBuild = false;
 	}
