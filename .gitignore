@@ -1,14 +1,17 @@
 Content
+Content_back
 Binaries
 Build
 DerivedDataCache
 Intermediate
 Saved
 Plugins
+Install
 .vs
 *.sln
 *.code-workspace
 .idea
 .vscode
+.vsconfig
 CMakeLists.txt
 Makefile

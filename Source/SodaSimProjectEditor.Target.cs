@@ -10,6 +10,8 @@ public class SodaSimProjectEditorTarget : TargetRules
 		Type = TargetType.Editor;
 		ExtraModuleNames.Add("SodaSimProject");
 
-		//bUseUnityBuild = false;
-	}
+        //ExeBinariesSubFolder = "dasd";
+        
+        //bUseUnityBuild = false;
+    }
 }
