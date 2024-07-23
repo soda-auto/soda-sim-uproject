@@ -9,7 +9,10 @@ public class SodaSimProjectTarget : TargetRules
 	{
 		Type = TargetType.Game;
 		ExtraModuleNames.Add("SodaSimProject");
-		
-		//LinkType = TargetLinkType.Modular;
-	}
+
+        IncludeOrderVersion = EngineIncludeOrderVersion.Latest;
+        DefaultBuildSettings = BuildSettingsVersion.V5;
+
+        //LinkType = TargetLinkType.Modular;
+    }
 }
