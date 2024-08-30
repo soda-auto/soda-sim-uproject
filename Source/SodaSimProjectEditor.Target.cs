@@ -13,8 +13,6 @@ public class SodaSimProjectEditorTarget : TargetRules
         IncludeOrderVersion = EngineIncludeOrderVersion.Latest;
         DefaultBuildSettings = BuildSettingsVersion.V5;
 
-        //ExeBinariesSubFolder = "dasd";
-
         //bUseUnityBuild = false;
     }
 }
