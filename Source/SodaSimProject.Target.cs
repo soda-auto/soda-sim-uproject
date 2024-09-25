@@ -13,6 +13,10 @@ public class SodaSimProjectTarget : TargetRules
         IncludeOrderVersion = EngineIncludeOrderVersion.Latest;
         DefaultBuildSettings = BuildSettingsVersion.V5;
 
+        CustomConfig = "SodaSim";
+        bOverrideBuildEnvironment = true;
+
         //LinkType = TargetLinkType.Modular;
+       //bShouldCompileAsDLL = true;
     }
 }
