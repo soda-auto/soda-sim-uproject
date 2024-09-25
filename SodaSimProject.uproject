@@ -16,31 +16,16 @@
 			"Enabled": true
 		},
 		{
+			"Name": "SodaCAN",
+			"Enabled": true
+		},
+		{
 			"Name": "SodaVdm",
 			"Enabled": false
 		},
 		{
 			"Name": "SodaValidate",
-			"Enabled": true,
-			"SupportedTargetPlatforms": [
-				"Win64"
-			]
-		},
-		{
-			"Name": "SodaCitySampleVehicles",
 			"Enabled": false
-		},
-		{
-			"Name": "SodaSmedley",
-			"Enabled": false
-		},
-		{
-			"Name": "SodaAgro",
-			"Enabled": false
-		},
-		{
-			"Name": "SodaCAN",
-			"Enabled": true
 		},
 		{
 			"Name": "SodaROS",
@@ -76,7 +61,7 @@
 		},
 		{
 			"Name": "SodaArrival",
-			"Enabled": true
+			"Enabled": false
 		},
 		{
 			"Name": "SodaChrono",
@@ -116,10 +101,6 @@
 		},
 		{
 			"Name": "GeoReferencing",
-			"Enabled": true
-		},
-		{
-			"Name": "CesiumForUnreal",
 			"Enabled": true
 		},
 		{
@@ -355,6 +336,22 @@
 			"TargetAllowList": [
 				"Editor"
 			]
+		},
+		{
+			"Name": "PerformanceMonitor",
+			"Enabled": true
+		},
+		{
+			"Name": "SunPosition",
+			"Enabled": true
+		},
+		{
+			"Name": "EditorScriptingUtilities",
+			"Enabled": true
 		}
+	],
+	"TargetPlatforms": [
+		"Linux",
+		"Windows"
 	]
 }
