@@ -3,6 +3,9 @@
 :: SET REL_ARCHIVE_DIR=
 :: SET PLATFORM=
 
+::rmdir /s /q %SODA_SIM_ROOT%\Content
+rmdir /s /q %UPROJ_EXT_PLUGINS_DIR%
+
 %UE_ROOT%\Engine\Build\BatchFiles\RunUAT.bat BuildCookRun ^
     -project=%SODA_SIM_ROOT%\SodaSimProject.uproject ^
     -noP4 ^

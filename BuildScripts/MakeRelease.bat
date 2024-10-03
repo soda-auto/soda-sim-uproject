@@ -17,7 +17,7 @@ exit /B
 :MakeRel
     SET PARAM_1=%~1
     pushd %REL_ARCHIVE_DIR%
-	"%ZIP_BIN%" a %REL_ARCHIVE_DIR%\SodaSimProject-%PARAM_1%.zip %REL_ARCHIVE_DIR%\%PARAM_1% -mx3
+	"%ZIP_BIN%" a %REL_ARCHIVE_DIR%\SodaSimProject-%PARAM_1%%RELEASE_NAME_POSTFIX%.zip %REL_ARCHIVE_DIR%\%PARAM_1% -mx3
 	popd
 	exit /B 0
 	

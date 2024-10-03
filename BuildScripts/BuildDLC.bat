@@ -10,13 +10,14 @@
 :: SET DLC_MOUNT_TARGET=
 :: SET DLC_MOUNT_LINK=
 
-if not exist %DLC_MOUNT_TARGET% exit /b 1
-
 rmdir /s /q %SODA_SIM_ROOT%\Content
 mkdir %DLC_MOUNT_LINK%\..\
 
+rmdir /s /q %UPROJ_EXT_PLUGINS_DIR%
+mkdir %UPROJ_EXT_PLUGINS_DIR%
+
 if not "%DLC_MOUNT_LINK%"=="" mklink /j %DLC_MOUNT_LINK% %DLC_MOUNT_TARGET% || exit /b 1
-if not "%EXT_PLUGIN_NAME%"=="" mklink /j %SODA_SIM_ROOT%\Plugins\%EXT_PLUGIN_NAME% %EXTRA_PLUGINS_ROOT%\%EXT_PLUGIN_NAME% || exit /b 1
+if not "%EXT_PLUGIN_NAME%"=="" mklink /j %UPROJ_EXT_PLUGINS_DIR%\%EXT_PLUGIN_NAME% %EXTRA_PLUGINS_ROOT%\%EXT_PLUGIN_NAME% || exit /b 1
 
 call %UE_ROOT%\Engine\Build\BatchFiles\RunUAT.bat BuildCookRun ^
     -project=%SODA_SIM_ROOT%\SodaSimProject.uproject ^
@@ -49,6 +50,4 @@ call %UE_ROOT%\Engine\Build\BatchFiles\RunUAT.bat BuildCookRun ^
     -CustomConfig=%CUSTOM_CONFIG% ^
     -additionalcookeroptions=-CustomConfig=%CUSTOM_CONFIG%
 	
-if not EXT_PLUGIN_NAME=="" rmdir /s /q %SODA_SIM_ROOT%\Plugins\%EXT_PLUGIN_NAME%
-
 exit /B %ERRORLEVEL%
