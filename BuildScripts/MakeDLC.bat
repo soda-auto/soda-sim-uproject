@@ -23,6 +23,5 @@ exit /B
     if exist %DLC_MOUNT_TARGET%\in.spak (
         copy %DLC_MOUNT_TARGET%\in.spak %ARCHIVE_ROOT%\%DLC_NAME%-%PARAM_1%_0_P.spak
     )
-	"%ZIP_BIN%" a %DLC_ARCHIVE_DIR%\%DLC_NAME%-%PARAM_1%.zip %ARCHIVE_ROOT%\%DLC_NAME%-%PARAM_1%_0_P.* -mx0
+	"%ZIP_BIN%" a %DLC_ARCHIVE_DIR%\%DLC_NAME%-%PARAM_1%.zip %ARCHIVE_ROOT%\%DLC_NAME%-%PARAM_1%_0_P.* -mx0 
 	exit /B 0
-	

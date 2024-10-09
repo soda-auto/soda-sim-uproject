@@ -11,9 +11,9 @@ call SetEnvBase_Example.bat
 ::call BuildDLC.bat
 ::call MakeDLC.bat
 
-call SetEnv_BrushifyCountryRoadsPack.bat
-call BuildDLC.bat
-call MakeDLC.bat
+::call SetEnv_BrushifyCountryRoadsPack.bat
+::call BuildDLC.bat
+::call MakeDLC.bat
 
 ::call SetEnv_Carla.bat
 ::call BuildDLC.bat
@@ -27,29 +27,29 @@ call MakeDLC.bat
 ::call BuildDLC.bat
 ::call MakeDLC.bat
 
-call SetEnv_CityStreetStylizedPack.bat
-call BuildDLC.bat
-call MakeDLC.bat
+::call SetEnv_CityStreetStylizedPack.bat
+::call BuildDLC.bat
+::call MakeDLC.bat
 
-call SetEnv_CyberpunkCityRecifeEnvironment.bat
-call BuildDLC.bat
-call MakeDLC.bat
+::call SetEnv_CyberpunkCityRecifeEnvironment.bat
+::call BuildDLC.bat
+::call MakeDLC.bat
 
-call SetEnv_CyberpunkStreet.bat
-call BuildDLC.bat
-call MakeDLC.bat
+::call SetEnv_CyberpunkStreet.bat
+::call BuildDLC.bat
+::call MakeDLC.bat
 
-call SetEnv_DesertGasStation.bat
-call BuildDLC.bat
-call MakeDLC.bat
+::call SetEnv_DesertGasStation.bat
+::call BuildDLC.bat
+::call MakeDLC.bat
 
-call SetEnv_HBSimpleStreets.bat
-call BuildDLC.bat
-call MakeDLC.bat
+::call SetEnv_HBSimpleStreets.bat
+::call BuildDLC.bat
+::call MakeDLC.bat
 
-call SetEnv_IndustrialAreaHangar.bat
-call BuildDLC.bat
-call MakeDLC.bat
+::call SetEnv_IndustrialAreaHangar.bat
+::call BuildDLC.bat
+::call MakeDLC.bat
 
 call SetEnv_JapaneseDriftRoadPack.bat
 call BuildDLC.bat
@@ -59,13 +59,13 @@ call SetEnv_MAEOakForest.bat
 call BuildDLC.bat
 call MakeDLC.bat
 
-call SetEnv_MeadowEnvironmentSet.bat
-call BuildDLC.bat
-call MakeDLC.bat
+::call SetEnv_MeadowEnvironmentSet.bat
+::call BuildDLC.bat
+::call MakeDLC.bat
 
-call SetEnv_MediterraneanCoast.bat
-call BuildDLC.bat
-call MakeDLC.bat
+::call SetEnv_MediterraneanCoast.bat
+::call BuildDLC.bat
+::call MakeDLC.bat
 
 call SetEnv_MediterraneanIslandPack.bat
 call BuildDLC.bat
@@ -91,9 +91,9 @@ call SetEnv_MountainRoad.bat
 call BuildDLC.bat
 call MakeDLC.bat
 
-::call SetEnv_NewYorkCity.bat
-::call BuildDLC.bat
-::call MakeDLC.bat
+call SetEnv_NewYorkCity.bat
+call BuildDLC.bat
+call MakeDLC.bat
 
 call SetEnv_PhotoStudio.bat
 call BuildDLC.bat
@@ -107,9 +107,9 @@ call SetEnv_RacingTrackWinterLandscape.bat
 call BuildDLC.bat
 call MakeDLC.bat
 
-call SetEnv_RealisticForestPack.bat
-call BuildDLC.bat
-call MakeDLC.bat
+::call SetEnv_RealisticForestPack.bat
+::call BuildDLC.bat
+::call MakeDLC.bat
 
 call SetEnv_Ribbon.bat
 call BuildDLC.bat
@@ -119,13 +119,13 @@ call SetEnv_RoadsPack.bat
 call BuildDLC.bat
 call MakeDLC.bat
 
-call SetEnv_SelfDriveProject.bat
-call BuildDLC.bat
-call MakeDLC.bat
+::call SetEnv_SelfDriveProject.bat
+::call BuildDLC.bat
+::call MakeDLC.bat
 
-call SetEnv_SnappyRoads.bat
-call BuildDLC.bat
-call MakeDLC.bat
+::call SetEnv_SnappyRoads.bat
+::call BuildDLC.bat
+::call MakeDLC.bat
 
 ::call SetEnv_SodaAgro.bat
 ::call BuildDLC.bat
@@ -159,9 +159,9 @@ call MakeDLC.bat
 ::call BuildDLC.bat
 ::call MakeDLC.bat
 
-call SetEnv_UltimateFarming.bat
-call BuildDLC.bat
-call MakeDLC.bat
+::call SetEnv_UltimateFarming.bat
+::call BuildDLC.bat
+::call MakeDLC.bat
 
 ::call SetEnv_UPSDepot.bat
 ::call BuildDLC.bat
