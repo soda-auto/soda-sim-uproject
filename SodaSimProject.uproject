@@ -36,7 +36,7 @@
 		},
 		{
 			"Name": "SodaROS2",
-			"Enabled": true
+			"Enabled": false
 		},
 		{
 			"Name": "SodaContinental",
