@@ -21,7 +21,7 @@
 		},
 		{
 			"Name": "SodaVdm",
-			"Enabled": true
+			"Enabled": false
 		},
 		{
 			"Name": "SodaValidate",
