@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- Remote repositories definition -->
+<manifest>
+    <remote name="gitlab.soda.tech" fetch="https://gitlab.soda.tech/soda-sim"/>
+    <project name="soda-sim" revision="master" remote="gitlab.soda.tech" path="Plugins/soda-sim"/>
+    <project name="soda-sim-vdm" revision="master" remote="gitlab.soda.tech" path="Plugins/soda-sim-vdm"/>
+    <project name="soda-sim-can" revision="master" remote="gitlab.soda.tech" path="Plugins/soda-sim-can"/>
+    <project name="CarlaLight" revision="master" remote="gitlab.soda.tech" path="Plugins/CarlaLight"/>
+    <project name="CesiumForUnreal" revision="master" remote="gitlab.soda.tech" path="Plugins/CesiumForUnreal"/>
+    <project name="CitySample" revision="master" remote="gitlab.soda.tech" path="Plugins/CitySample"/>
+</manifest>
